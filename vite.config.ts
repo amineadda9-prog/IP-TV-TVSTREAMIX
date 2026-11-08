@@ -10,6 +10,8 @@ const __dirname = path.dirname(__filename);
 
 // https://vite.dev/config/
 export default defineConfig({
+  // GitHub Pages project-site path for this repository.
+  base: "/IP-TV-TVSTREAMIX/",
   plugins: [react(), tailwindcss(), viteSingleFile()],
   resolve: {
     alias: {
